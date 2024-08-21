@@ -1,0 +1,14 @@
+// This is the input json config file for building a BWA alignment script
+// This must contain lists of the disease, plus a list of genes per each disease
+// Additionally, this must contain the info about the websites for parsing all of the data
+
+{
+  "read_length":150,
+  "is_paired":true,
+  "path_to_bwa":"/home/dwsant/Programs/bwa/bwa",
+  "number_cores": 8,
+  "path_to_prebuilt_reference": "/home/dwsant/Genome_References/MM39_BWA/MM39", // include prefix if available
+  "path_to_samtools": "/home/dwsant/Programs/samtools-1.20/samtools",
+  "path_to_picard_jar": "/home/dwsant/Programs/picard/build/libs/picard.jar",
+  "fai_file": "/home/dwsant/Genome_References/MM39_BWA/Mus_musculus.GRCm39.dna.primary_assembly.fa.fai"
+}
